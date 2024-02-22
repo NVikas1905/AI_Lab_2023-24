@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-02-21 at 14 44 31_340b62e1](https://github.com/NVikas1905/AI_Lab_2023-24/assets/133752491/7f3acc02-0c16-493f-a014-fbb681063fb1)# Ex.No: 3  Implementation of Minimax Search
+### Ex.No: 3  Implementation of Minimax Search
 ### DATE: 21.02.2024                                                                            
 ### REGISTER NUMBER : 212221040179  
 ### AIM: 
