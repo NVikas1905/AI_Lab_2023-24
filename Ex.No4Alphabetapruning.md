@@ -1,4 +1,4 @@
-![image](https://github.com/NVikas1905/AI_Lab_2023-24/assets/133752491/69b9c5fa-8613-426b-a478-2162c82021d6)# Ex.No: 4   Implementation of Alpha Beta Pruning 
+# Ex.No: 4   Implementation of Alpha Beta Pruning 
 ### DATE: 21.02.2024                                                                            
 ### REGISTER NUMBER : 212221040179
 ### AIM: 
