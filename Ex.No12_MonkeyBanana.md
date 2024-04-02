@@ -1,21 +1,18 @@
-Ex.No: 12 Planning – Monkey Banana Problem
-DATE: 1/4/24
-REGISTER NUMBER : 212221040012
-AIM:
-
+# Ex.No: 12 Planning –  Monkey Banana Problem
+### DATE: 1/4/24                                                                           
+### REGISTER NUMBER : 212221040012
+### AIM: 
 To find the sequence of plan for Monkey Banana problem using PDDL Editor.
-Algorithm:
-
-Step 1: Start the program
-Step 2 : Create a domain for Monkey Banana Problem.
-Step 3: Create a domain by specifying predicates.
-Step 4: Specify the actions GOTO, CLIMB, PUSH-BOX, GET-KNIFE, GRAB-BANANAS in Monkey Banana problem.
-
-Step 5: Define a problem for Monkey Banana problem.
-Step 6: Obtain the plan for given problem.
-Step 7: Stop the program.
-Program:
-
+###  Algorithm:
+Step 1:  Start the program <br> 
+Step 2 : Create a domain for Monkey Banana Problem. <br> 
+Step 3:  Create a domain by specifying predicates. <br> 
+Step 4: Specify the actions GOTO, CLIMB, PUSH-BOX, GET-KNIFE, GRAB-BANANAS in Monkey Banana problem.<br>  
+Step 5:   Define a problem for Monkey Banana problem.<br> 
+Step 6:  Obtain the plan for given problem.<br> 
+Step 7: Stop the program.<br> 
+### Program:
+```
 (define (domain monkey)
  (:requirements :strips)
  (:constants monkey box knife bananas glass waterfountain)
@@ -64,9 +61,9 @@ Program:
  (at monkey ?y)
  (onbox ?y))
  :effect (haswater)))
-
-Input
-
+```
+### Input
+```
  (define (problem pb1)
  (:domain monkey)
  (:objects p1 p2 p3 p4 bananas monkey box knife)
@@ -82,10 +79,11 @@ Input
  )
  (:goal (and (hasbananas)))
 ) 
+```
 
-Output/Plan:
+### Output/Plan:
 
-image
-Result:
+![image](https://github.com/Mena-Rossini/AI_Lab_2023-24/assets/102855266/3646541e-f73d-4122-84ee-0951ced0fcc3)
 
+### Result:
 Thus the plan was found for the initial and goal state of given problem.
