@@ -4,6 +4,7 @@
 ### AIM: 
 To find the sequence of plan for Monkey Banana problem using PDDL Editor.
 ###  Algorithm:
+
 Step 1:  Start the program <br> 
 Step 2 : Create a domain for Monkey Banana Problem. <br> 
 Step 3:  Create a domain by specifying predicates. <br> 
